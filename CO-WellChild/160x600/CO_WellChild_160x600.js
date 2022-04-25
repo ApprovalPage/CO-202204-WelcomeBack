@@ -3,7 +3,7 @@
 var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
-		{name:"CO_WellChild_160x600_atlas_NP_1", frames: [[0,0,600,1200],[602,0,600,1200],[1204,0,600,1200],[1806,0,600,1200]]}
+		{name:"CO_WellChild_160x600_atlas_NP_1", frames: [[1806,0,320,1200],[0,0,600,1200],[602,0,600,1200],[1204,0,600,1200]]}
 ];
 
 
@@ -26,14 +26,14 @@ lib.ssMetadata = [
 
 
 
-(lib.CO_WellChild_300x6001 = function() {
+(lib.CO_WellChild_160x6002 = function() {
 	this.initialize(ss["CO_WellChild_160x600_atlas_NP_1"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CO_WellChild_300x6002 = function() {
+(lib.CO_WellChild_300x6001 = function() {
 	this.initialize(ss["CO_WellChild_160x600_atlas_NP_1"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
@@ -126,14 +126,14 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.instance = new lib.CO_WellChild_300x6002();
-	this.instance.setTransform(-150,-300,0.5,0.5);
+	this.instance = new lib.CO_WellChild_160x6002();
+	this.instance.setTransform(-80,-300,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
 	this._renderFirstFrame();
 
-}).prototype = getMCSymbolPrototype(lib.PIC2, new cjs.Rectangle(-150,-300,300,600), null);
+}).prototype = getMCSymbolPrototype(lib.PIC2, new cjs.Rectangle(-80,-300,160,600), null);
 
 
 (lib.PIC1 = function(mode,startPosition,loop,reversed) {
@@ -727,7 +727,7 @@ lib.properties = {
 	color: "#999999",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/CO_WellChild_160x600_atlas_NP_1.jpg?1650921978678", id:"CO_WellChild_160x600_atlas_NP_1"}
+		{src:"images/CO_WellChild_160x600_atlas_NP_1.jpg?1650926300753", id:"CO_WellChild_160x600_atlas_NP_1"}
 	],
 	preloads: []
 };
