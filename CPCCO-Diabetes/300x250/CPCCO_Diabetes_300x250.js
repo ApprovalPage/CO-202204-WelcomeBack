@@ -869,7 +869,7 @@ lib.properties = {
 	color: "#999999",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/CPCCO_Diabetes_300x250_atlas_NP_1.jpg?1651267423692", id:"CPCCO_Diabetes_300x250_atlas_NP_1"}
+		{src:"images/CPCCO_Diabetes_300x250_atlas_NP_1.jpg?1651268465448", id:"CPCCO_Diabetes_300x250_atlas_NP_1"}
 	],
 	preloads: []
 };
