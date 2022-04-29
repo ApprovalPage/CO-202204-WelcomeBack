@@ -775,7 +775,7 @@ lib.properties = {
 	color: "#999999",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/CO_Diabetes_300x250_atlas_NP_1.jpg?1651265856038", id:"CO_Diabetes_300x250_atlas_NP_1"}
+		{src:"images/CO_Diabetes_300x250_atlas_NP_1.jpg?1651268419354", id:"CO_Diabetes_300x250_atlas_NP_1"}
 	],
 	preloads: []
 };
