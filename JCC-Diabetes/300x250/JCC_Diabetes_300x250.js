@@ -873,7 +873,7 @@ lib.properties = {
 	color: "#999999",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/JCC_Diabetes_300x250_atlas_NP_1.jpg?1651267462084", id:"JCC_Diabetes_300x250_atlas_NP_1"}
+		{src:"images/JCC_Diabetes_300x250_atlas_NP_1.jpg?1651268449725", id:"JCC_Diabetes_300x250_atlas_NP_1"}
 	],
 	preloads: []
 };
